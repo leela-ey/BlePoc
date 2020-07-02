@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hv364lz/Code/RTO/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms.Android/EY.Mobile.Bluetooth.XamarinFroms.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/hv364lz/Code/RTO/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms.Android/EY.Mobile.Bluetooth.XamarinFroms.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hv364lz/Code/RTO/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms.Android/EY.Mobile.Bluetooth.XamarinFroms.Android.csproj",
+        "projectName": "EY.Mobile.Bluetooth.XamarinFroms.Android",
+        "projectPath": "/Users/hv364lz/Code/RTO/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms.Android/EY.Mobile.Bluetooth.XamarinFroms.Android.csproj",
+        "packagesPath": "/Users/hv364lz/.nuget/packages/",
+        "outputPath": "/Users/hv364lz/Code/RTO/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/hv364lz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "/Users/hv364lz/Code/NuGet": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://eysbp.pkgs.visualstudio.com/_packaging/EY.Mobile/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/hv364lz/Code/RTO/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms.csproj": {
+                "projectPath": "/Users/hv364lz/Code/RTO/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.3.0.908675, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/hv364lz/Code/RTO/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hv364lz/Code/RTO/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms.csproj",
+        "projectName": "EY.Mobile.Bluetooth.XamarinFroms",
+        "projectPath": "/Users/hv364lz/Code/RTO/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms.csproj",
+        "packagesPath": "/Users/hv364lz/.nuget/packages/",
+        "outputPath": "/Users/hv364lz/Code/RTO/EY.Mobile.Bluetooth.XamarinFroms/EY.Mobile.Bluetooth.XamarinFroms/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hv364lz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/hv364lz/Code/NuGet": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://eysbp.pkgs.visualstudio.com/_packaging/EY.Mobile/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "EY.Mobile.Lib": {
+              "target": "Package",
+              "version": "[1.1.68, )"
+            },
+            "EY.Mobile.Lib.XamarinForms": {
+              "target": "Package",
+              "version": "[1.0.20, )"
+            },
+            "EY.Mobile.XamarinForms": {
+              "target": "Package",
+              "version": "[1.0.25, )"
+            },
+            "EY.Mobile.XamarinForms.Lottie": {
+              "target": "Package",
+              "version": "[1.0.11, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.3.0.908675, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

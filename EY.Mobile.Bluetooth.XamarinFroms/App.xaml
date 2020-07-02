@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<s:ApplicationBase
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Class="EY.Mobile.Bluetooth.XamarinFroms.App"
+    xmlns:s="clr-namespace:EY.Mobile.XamarinForms;assembly=EY.Mobile.XamarinForms">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- Colors -->
+            <Color x:Key="NavigationBarBackgroundColor">#23282d</Color>
+            <Color x:Key="PageBackgroundColor">#23282d</Color>
+            <Color x:Key="PrimaryTextColor">#4A4A4A</Color>
+            <Color x:Key="BackgroundColor">#23282d</Color>
+            <Color x:Key="DarkGrayBackground">#44494F</Color>
+            <Color x:Key="CardBackgroundColor">#2A3036</Color>
+            <Color x:Key="TextColor">White</Color>
+            <Color x:Key="ListItemDetailTextColor">#8a8a8a</Color>
+            <Color x:Key="YellowHeaderTextColor">#FEE23C</Color>
+            <Color x:Key="ListSelectionColor">#E4EFFB</Color>
+            <Color x:Key="Teal">#0078d7</Color>
+            <Color x:Key="SelectionColor">#447296</Color>
+
+            <!-- client stories colors -->
+            <Color x:Key="ClientStoriesHeaderRowBackgroundColor">#FEE23C</Color>
+            <Color x:Key="ClientStoriesHeaderRowTextColor">Black</Color>
+
+            <!-- Nav bar Style -->
+            <Style x:Key="NavigationPageStyle" 
+                TargetType="NavigationPage"
+                ApplyToDerivedTypes="true">
+                <Setter Property="BarBackgroundColor" Value="#23282d" />
+                <Setter Property="BarTextColor" Value="White" />
+            </Style>
+
+            <!-- Tab bar style -->
+            <Style TargetType="ContentPage" ApplyToDerivedTypes="True" >
+                <Setter Property="BackgroundColor" Value="{StaticResource PageBackgroundColor}" /> 
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="White"></Setter>
+            </Style>
+            <!-- Nav bar Style -->
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#23282d" />
+                <Setter Property="BarTextColor" Value="White" />
+            </Style> 
+                <Style x:Key="ContentPageStyle" 
+                    TargetType="ContentPage" 
+                    ApplyToDerivedTypes="true">
+                <Setter Property="BackgroundColor" Value="#4B4C4E" />  
+                <Setter Property="NavigationPage.BackButtonTitle" Value="" />
+            </Style>
+                <Style x:Key="BlackButton" 
+                    TargetType="Button" 
+                    ApplyToDerivedTypes="true">
+                <Setter Property="Padding" Value="10"></Setter>
+                <Setter Property="BackgroundColor" Value="Black"></Setter>
+                <Setter Property="BorderRadius" Value="5"></Setter>  
+                <Setter Property="BorderWidth" Value="1"></Setter>  
+                <Setter Property="TextColor" Value="White"></Setter>
+            </Style>
+                <OnPlatform x:Key="FontAwesomeSolid" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Font Awesome 5 Pro Solid" />
+                <On Platform="Android" Value="fa-solid-900.ttf#Font Awesome 5 Pro Solid" />
+                <On Platform="UWP" Value="Assets/Fonts/fa-solid-900.ttf#Font Awesome 5 Pro Solid" />
+            </OnPlatform>
+            <OnPlatform x:Key="FontAwesomeLight" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Font Awesome 5 Pro Light" />
+                <On Platform="Android" Value="fa-light-300.ttf#Font Awesome 5 Pro Light" />
+                <On Platform="UWP" Value="Assets/Fonts/fa-light-300.ttf#Font Awesome 5 Pro Light" />
+            </OnPlatform>
+            <OnPlatform x:Key="FontAwesomeRegular" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Font Awesome 5 Pro Regular" />
+                <On Platform="Android" Value="fa-regular-400.ttf#Font Awesome 5 Pro Regular" />
+                <On Platform="UWP" Value="Assets/Fonts/fa-regular-400.ttf#Font Awesome 5 Pro Regular" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="FontPageTitle" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="AvenirNextCondensed-Bold" />
+                <On Platform="Android" Value="fa-regular-400.ttf#Font Awesome 5 Pro Regular" />
+                <On Platform="UWP" Value="Assets/Fonts/fa-regular-400.ttf#Font Awesome 5 Pro Regular" />
+            </OnPlatform>
+          <OnPlatform x:Key="FontListItem" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="SFUIText-Regular" />
+                <On Platform="Android" Value="fa-regular-400.ttf#Font Awesome 5 Pro Regular" />
+                <On Platform="UWP" Value="Assets/Fonts/fa-regular-400.ttf#Font Awesome 5 Pro Regular" />
+            </OnPlatform>
+        </ResourceDictionary>
+    </Application.Resources>
+</s:ApplicationBase>

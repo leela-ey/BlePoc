@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{5895B342-3765-4A72-A988-EBC030C9254F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth/BTGattCharacteristicReadResponse.cs">
+    <Files>
+      <File FileName="EY.Mobile.Bluetooth.XamarinFroms/BleCentral.cs" Line="31" Column="10" />
+      <File FileName="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth.iOS/BTDevice.cs" />
+      <File FileName="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth.iOS/BluetoothCentralService.cs" />
+      <File FileName="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth.iOS/BluetoothService.cs" />
+      <File FileName="EY.Mobile.Bluetooth.XamarinFroms/EyC19CTService.cs" />
+      <File FileName="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth.iOS/BluetoothGattCharacteristic.cs" />
+      <File FileName="EY.Mobile.Bluetooth.XamarinFroms/Views/CentralScreen.xaml" />
+      <File FileName="EY.Mobile.Bluetooth.XamarinFroms/ViewModels/CentralScreenViewModel.cs" />
+      <File FileName="EY.Mobile.Bluetooth.XamarinFroms/ViewModels/StartScreenViewModel.cs" />
+      <File FileName="EY.Mobile.Bluetooth.XamarinFroms/Views/DeveloperScreens.xaml" />
+      <File FileName="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth/Interfaces/IBTDevice.cs" />
+      <File FileName="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth/Interfaces/IBluetoothService.cs" />
+      <File FileName="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth/Interfaces/IBluetoothPeripheralService.cs" />
+      <File FileName="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth.iOS/BluetoothPeripheralService.cs" Line="190" Column="12" />
+      <File FileName="EY.Mobile.Bluetooth.XamarinFroms/BlePeripheral.cs" Line="62" Column="29" />
+      <File FileName="EY.Mobile.Bluetooth.XamarinFroms.iOS/AppDelegate.cs" />
+      <File FileName="EY.Mobile.Bluetooth.XamarinFroms/BleService.cs" />
+      <File FileName="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth/Interfaces/IBluetoothCentralService.cs" />
+      <File FileName="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth.iOS/LocalPeripheralService.cs" Line="6" Column="46" />
+      <File FileName="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth.iOS/LocalPeripheralCharacteristic.cs" />
+      <File FileName="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth/Interfaces/ILocalPeripheralService.cs" />
+      <File FileName="../../../EY.Mobile.Bluetooth/EY.Mobile.Bluetooth/BTGattCharacteristicReadResponse.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EY.Mobile.Bluetooth.XamarinFroms" expanded="True">
+            <Node name="EY.Mobile.Bluetooth" expanded="True">
+              <Node name="EY.Mobile.Bluetooth" expanded="True">
+                <Node name="BTGattCharacteristicReadResponse.cs" selected="True" />
+              </Node>
+              <Node name="EY.Mobile.Bluetooth.iOS" expanded="True" />
+            </Node>
+            <Node name="EY.Mobile.Bluetooth.XamarinFroms" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+            <Node name="EY.Mobile.Bluetooth.XamarinFroms.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EY.Mobile.Bluetooth.XamarinFroms.Android FirstBuild="True" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.EY.Mobile.Bluetooth.XamarinFroms.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.bc32d4226c132f7f37330896bde26e2ba7b5036c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

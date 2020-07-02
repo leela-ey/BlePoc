@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<s:ContentPageBase
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:s="clr-namespace:EY.Mobile.XamarinForms;assembly=EY.Mobile.XamarinForms"
+    x:Class="EY.Mobile.Bluetooth.XamarinFroms.Views.StartScreen">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                BackgroundColor="{StaticResource Teal}" 
+                Text="Create Central" 
+                BorderRadius="10" 
+                WidthRequest="200" 
+                Command="{Binding CreateCentralCommand}" 
+                Margin="60,40,60,0" 
+                TextColor="White"/>
+            <Button
+                BackgroundColor="{StaticResource Teal}" 
+                Text="Create Peripheral" 
+                BorderRadius="10" 
+                WidthRequest="200" 
+                Command="{Binding CreatePeripheralCommand}" 
+                Margin="60,40,60,0" 
+                TextColor="White"/> 
+        </StackLayout>
+    </ContentPage.Content>
+</s:ContentPageBase>

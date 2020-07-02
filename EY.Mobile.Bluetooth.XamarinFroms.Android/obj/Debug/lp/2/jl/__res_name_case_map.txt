@@ -1,0 +1,4 @@
+values/Strings.xml;values/strings.xml
+layout/loading.axml;layout/loading.xml
+drawable/roundedbg.xml;drawable/roundedbg.xml
+drawable/roundedbgdark.xml;drawable/roundedbgdark.xml

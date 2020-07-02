@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<s:ContentPageBase
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+
+    Title="{Binding Title}"
+    Style="{StaticResource ContentPageStyle}"
+    BackgroundColor="{DynamicResource PageBackgroundColor}"  
+    Visual="Material"
+    Padding="0"   
+
+    x:Class="EY.Mobile.Bluetooth.XamarinFroms.DeveloperScreens"
+    xmlns:s="clr-namespace:EY.Mobile.XamarinForms;assembly=EY.Mobile.XamarinForms">
+    <ContentPage.Content>
+        <FlexLayout 
+            Direction="Column">
+            <FlexLayout 
+                FlexLayout.Basis="100%" 
+                FlexLayout.AlignSelf="Center" 
+                Direction="Column" 
+                JustifyContent="Center" 
+                AlignItems="Center">
+                    <Button
+                        BackgroundColor="{StaticResource Teal}" 
+                        Text="Developer Options" 
+                        BorderRadius="10" 
+                        WidthRequest="200" 
+                        Command="{Binding NavigateToDeveloperPageCommand}" 
+                        Margin="60,40,60,0" 
+                        TextColor="White"/> 
+            </FlexLayout>
+        </FlexLayout>
+    </ContentPage.Content>
+</s:ContentPageBase>

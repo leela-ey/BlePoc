@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<s:ContentPageBase
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:s="clr-namespace:EY.Mobile.XamarinForms;assembly=EY.Mobile.XamarinForms"
+    x:Class="EY.Mobile.Bluetooth.XamarinFroms.Views.CentralScreen"
+    
+    Title="{Binding Title}"
+    Style="{StaticResource ContentPageStyle}"
+    BackgroundColor="{DynamicResource PageBackgroundColor}"  
+    Visual="Material"
+    Padding="0"  >
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                BackgroundColor="{StaticResource Teal}" 
+                Text="Start Scanning" 
+                BorderRadius="10" 
+                WidthRequest="200"
+                HeightRequest="50"
+                Margin="30,0,30,10" 
+                Command="{Binding StartScanningCommand}" 
+                TextColor="White"/>
+            <Label
+                BackgroundColor="Transparent"
+                Text="{Binding ScanningStatus}" 
+                TextColor="White" 
+                Margin="30,0,30,30"
+                HeightRequest="30"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+            <!--<ListView ItemsSource="{Binding RecordedDevices}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Text="{Binding Details}" VerticalTextAlignment="Center" FontSize="Small" />
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>-->
+
+        </StackLayout>
+    </ContentPage.Content>
+</s:ContentPageBase>
